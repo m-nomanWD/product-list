@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   h1 {
-    @apply text-red-700 flex items-center justify-center;
+    @apply text-Rose_900 font-bold  flex items-center justify-center font-redHatText;
   }
 }
