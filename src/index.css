@@ -11,4 +11,8 @@
   h1 {
     @apply text-Rose_900 font-bold;
   }
+  .cart-btn{
+    @apply -mt-6 h-12 border-2  w-40 rounded-3xl flex items-center justify-center cursor-pointer
+  }
+  
 }

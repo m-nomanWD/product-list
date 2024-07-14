@@ -4,7 +4,7 @@ import data from './data.json'
 function App() {
   return (
     <>
-      <main className='flex flex-col items-center justify-center py-8'>
+      <main className='flex flex-col items-center justify-center py-8 bg-Rose_50'>
         <ProductList />
         <Cart />
         <Modal />
