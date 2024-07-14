@@ -1,9 +1,14 @@
 import './index.css'
-
+import { ProductList, Modal, Cart } from './components'
+import data from './data.json'
 function App() {
   return (
     <>
-      <h1>project list project</h1>
+      <main className='flex flex-col items-center justify-center py-8'>
+        <ProductList />
+        <Cart />
+        <Modal />
+      </main>
     </>
   )
 }

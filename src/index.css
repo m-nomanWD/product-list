@@ -5,7 +5,10 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    @apply font-redHatText text-Rose_900;
+  }
   h1 {
-    @apply text-Rose_900 font-bold  flex items-center justify-center font-redHatText;
+    @apply text-Rose_900 font-bold;
   }
 }
