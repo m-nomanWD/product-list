@@ -15,6 +15,10 @@ export default {
         Rose_400: 'hsl(7, 20%, 60%)',
         Rose_500: 'hsl(12, 20%, 44%)',
         Rose_900: 'hsl(14, 65%, 9%)',
+        overlay: 'rgba(0,0,0,0.5)',
+      },
+      screens: {
+        sm: '375px',
       },
     },
   },
