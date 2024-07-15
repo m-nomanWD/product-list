@@ -26,7 +26,7 @@ export default function SingleProduct({ product }) {
         {isInCart ? (
           <div className="cart-btn border-none bg-Red text-Rose_100 justify-between px-4 ">
             <img
-              className="w-5 h-5 rounded-full border-Rose_100 border-[1px] p-1    "
+              className="w-5 h-5 rounded-full border-Rose_100 border-[1px] p-1 hover:change-color    "
               src={minusBtn}
               alt=""
               onClick={() => {
@@ -40,7 +40,7 @@ export default function SingleProduct({ product }) {
             <img
               src={plusBtn}
               alt=""
-              className="rounded-full border-Rose_100 border-[1px] p-1 "
+              className="rounded-full border-Rose_100 border-[1px] p-1  "
               onClick={() => {
                 distpatch(increase({ name: name, price: price }));
 

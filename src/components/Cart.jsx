@@ -11,7 +11,7 @@ export default function Cart() {
   const dispatch = useDispatch();
   if (cartItems.length === 0) {
     return (
-      <div className="bg-white md:w-[400px] rounded-sm p-4 h-fit sm:w-11/12 mx-auto  ">
+      <div className="bg-white md:w-[350px] rounded-sm p-4 h-fit sm:w-11/12 mx-auto  ">
         <h1 className="text-Red text-2xl ">{`Your Cart(${amount})`}</h1>
         <div className="flex flex-col justify-center items-center">
           <img
@@ -30,7 +30,7 @@ export default function Cart() {
     return (
       <div>
 
-        <div className="bg-white md:w-[400px] rounded-sm p-4 flex flex-col justify-center sm:w-11/12 mx-auto ">
+        <div className="bg-white md:w-[400px] lg:w-[350px] rounded-sm p-4 flex flex-col justify-center sm:w-11/12 mx-auto ">
           <h1 className="text-Red text-2xl ">{`Your Cart(${amount})`}</h1>
           <div>
             {cartItems.map((item, index) => {
